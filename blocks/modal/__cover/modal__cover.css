@@ -1,0 +1,14 @@
+.modal__cover {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .modal__cover {
+        flex-direction: column;
+        margin-bottom: 35px;
+    }
+}

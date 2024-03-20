@@ -1,0 +1,46 @@
+@import url(./__close/thanks__close.css);
+@import url(./__title/thanks__title.css);
+@import url(./__subtitle/thanks__subtitle.css);
+@import url(./__button/thanks__button.css);
+
+.thanks {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    max-width: calc(570px - 250px);
+    padding: 63px 125px 43px;
+    background: #FFFEFD;
+    box-shadow: 0 0 25px rgba(153, 153, 153, 0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.thanks::after {
+    position: absolute;
+    content: url(../../images/modal_paw.svg);
+    transform: rotate(-100deg);
+    bottom: 0;
+    left: -85px;
+    width: 367px;
+    height: 314px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .thanks {
+        max-width: calc(290px - 15px * 2);
+        padding: 60px 15px;
+    }
+
+    .thanks::after {
+        position: absolute;
+        content: url(../../images/modal_paw.svg);
+        transform: rotate(-100deg);
+        bottom: 0;
+        left: -85px;
+        width: 367px;
+        height: 314px;
+        z-index: 0;
+    }
+}

@@ -1,0 +1,42 @@
+@import url(./__background/main-banner__background.css);
+@import url(./__location/main-banner__location.css);
+@import url(./__title/main-banner__title.css);
+@import url(./__subtitle/main-banner__subtitle.css);
+@import url(./__button/main-banner__button.css);
+
+.main-banner {
+    /* margin: 0 auto; */
+    max-width: 1366px;
+    min-height: 504px;
+}
+
+@media screen and (max-width: 1000px){
+    .main-banner {
+        display: flex;
+        justify-content: center;
+        background-color: #FAC663;
+        max-width: 1000px;
+        min-height: 868px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main-banner {
+        max-width: 768px;
+        min-height: 668px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .main-banner {
+        max-width: 600px;
+        min-height: 568px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .main-banner {
+        max-width: 450px;
+        min-height: 457px;
+    }
+}

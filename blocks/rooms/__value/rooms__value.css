@@ -1,0 +1,15 @@
+.rooms__value {
+    margin: 0 0 20px;
+    padding: 0;
+    font-size: 22px;
+    line-height: 1.18;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1130px){
+    .rooms__value {
+        margin: 0 0 16px;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}

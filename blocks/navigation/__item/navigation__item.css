@@ -1,0 +1,9 @@
+.navigation__item:not(:last-of-type) {
+    margin-right: 30px;
+}
+
+@media all and (max-width: 580px) {
+    .navigation__item:not(:last-of-type) {
+        margin-right: 0;
+    }
+}

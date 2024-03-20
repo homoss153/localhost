@@ -1,0 +1,13 @@
+.navigation__item_type_header {
+
+}
+
+@media screen and (max-width: 580px) {
+    .navigation__item_type_header:not(:last-of-type) {
+        margin-bottom: 25px;
+    }
+
+    .navigation__item_type_header:last-of-type {
+        margin-bottom: 40px;
+    }
+}

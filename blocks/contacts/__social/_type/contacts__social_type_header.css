@@ -1,0 +1,11 @@
+.contacts__social_type_header {
+    display: none;
+}
+
+@media screen and (max-width: 580px){
+    .contacts__social_type_header {
+        display: flex;
+        justify-content: space-between;
+        width: 120px;
+    }
+}

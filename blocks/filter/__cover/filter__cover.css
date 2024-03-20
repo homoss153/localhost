@@ -1,0 +1,11 @@
+.filter__cover {
+    display: flex;
+    justify-content: space-between;
+    min-width: 210px;
+}
+
+@media screen and (max-width: 1365px) {
+    .filter__cover {
+        max-width: 212px;
+    }
+}

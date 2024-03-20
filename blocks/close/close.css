@@ -1,0 +1,11 @@
+.close {
+    position: absolute;
+    background-image: url(../../images/modal_close.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border:none;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background-color: white;
+}

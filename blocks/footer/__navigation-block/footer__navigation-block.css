@@ -1,0 +1,25 @@
+.footer__navigation-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 198px;
+    background-color: #FFFEFD;
+    max-width: calc(1366px - 198px - 198px);
+    min-height: 76px;
+}
+
+@media screen and (max-width: 1365px){
+    .footer__navigation-block {
+        padding: 0 45px;
+        width: calc(100% - 45px * 2);
+    }
+}
+
+@media screen and (max-width: 580px){
+    .footer__navigation-block {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 30px 15px 10px;
+        width: calc(100% - 15px * 2);
+    }
+}

@@ -1,0 +1,19 @@
+@import url(./__container/header__container.css);
+@import url(./__button/header__button.css);
+@import url(./__phone/header__phone.css);
+@import url(./__container/_show/header__container_show.css);
+@import url(./__button/_show/header__button_show.css);
+
+.header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 76px;
+}
+
+@media screen and (max-width: 450px){
+    .header {
+        min-height: 62px;
+    }
+}

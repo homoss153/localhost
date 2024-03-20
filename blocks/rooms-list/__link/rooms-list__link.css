@@ -1,0 +1,26 @@
+.rooms-list__link {
+    position: relative;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #141312;
+    text-decoration: none;
+}
+
+.rooms-list__item:nth-child(odd) .rooms-list__link::before {
+    position: absolute;
+    content: url(../../../images/filter__arrow.svg);
+    width: 5px;
+    height: 10px;
+    top: 2px;
+    left: -15px;
+} 
+
+.rooms-list__item:nth-child(even) .rooms-list__link::before {
+    position: absolute;
+    content: url(../../../images/filter__arrow.svg);
+    width: 5px;
+    height: 10px;
+    top: 2px;
+    left: -13px;
+    transform: rotate(-180deg);
+} 

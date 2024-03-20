@@ -1,0 +1,9 @@
+.rooms__selector {
+    margin-left: 50%;
+}
+
+@media screen and (max-width: 900px){
+    .rooms__selector {
+        margin: 0 auto;
+    }
+}

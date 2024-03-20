@@ -1,0 +1,26 @@
+.filter__price {
+    max-width: 100px;
+    border: 1px solid #E1E1E1;
+    box-sizing: border-box;
+    padding: 7px 5px;
+    font-size: 14px;
+    line-height: 1.21;
+}
+
+.filter__price::-webkit-input-placeholder {
+    color: #1A212F;
+}
+
+.filter__price:-ms-input-placeholder {
+    color: #1A212F;
+}
+
+.filter__price::-moz-placeholder {
+    color: #1A212F;
+    opacity: 1;
+}
+
+.filter__price:-moz-placeholder {
+    color: #1A212F;
+    opacity: 1;
+}

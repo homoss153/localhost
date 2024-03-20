@@ -1,0 +1,24 @@
+.rooms__image {
+    display: block;
+    position: relative;
+    width: 600px;
+    height: 404px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1130px){
+    .rooms__image {
+        width: 442px;
+        height: 326px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .rooms__image {
+        width: 290px;
+        height: 192px;
+        border-radius: 8px 8px 0 0;
+    }
+}

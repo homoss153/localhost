@@ -1,0 +1,15 @@
+.contacts__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 365px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1000px){
+    .contacts__list {
+        min-height: 337px;
+    }
+}

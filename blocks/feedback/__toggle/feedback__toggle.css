@@ -1,0 +1,9 @@
+.feedback__toggle {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 900px){
+    .feedback__toggle {
+        display: none;
+    }
+}

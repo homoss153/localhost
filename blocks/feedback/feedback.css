@@ -1,0 +1,56 @@
+@import url(./__list/feedback__list.css);
+@import url(./__item/feedback__item.css);
+@import url(./__text/feedback__text.css);
+@import url(./__data/feedback__data.css);
+@import url(./__data/_type/feedback__data_type_name.css);
+@import url(./__data/_type/feedback__data_type_date.css);
+@import url(./__userdata/feedback__userdata.css);
+@import url(./__title/feedback__title.css);
+@import url(./__selector/feedback__selector.css);
+@import url(./__toggle/feedback__toggle.css);
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 1366px;
+    padding: 140px 0 152px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.feedback::after {
+    position: absolute;
+    content: '';
+    background-image: url('../../images/paw-2.svg');
+    background-size: cover;
+    top: -30px;
+    right: -110px;
+    width: 456px;
+    height: 425px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 1365px){
+    .feedback {
+        min-width: 768px;
+        padding: 108px 0 120px;
+    }
+
+    .feedback::after {
+        right: -75px;
+        width: 400px;
+        height: 349px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .feedback {
+        min-width: 320px;
+        padding: 70px 0;
+    }
+
+    .feedback::after {
+        display: none;
+    }
+}

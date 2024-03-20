@@ -1,0 +1,9 @@
+.feedback__selector {
+    margin-left: 50%;
+}
+
+@media screen and (max-width: 900px){
+    .feedback__selector {
+        margin: 0 auto;
+    }
+}

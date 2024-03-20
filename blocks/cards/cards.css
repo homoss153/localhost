@@ -1,0 +1,32 @@
+@import url(./__item/cards__item.css);
+@import url(./__image/cards__image.css);
+@import url(./__title/cards__title.css);
+@import url(./__text/cards__text.css);
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 370px);
+    grid-template-rows: repeat(auto-fit, 321px);
+    gap: 20px 30px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 1170px;
+}
+
+@media screen and (max-width: 1250px){
+    .cards {
+        grid-template-columns: repeat(auto-fit, 324px);
+        grid-template-rows: 285px;
+        gap: 30px;
+        min-width: 678px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cards {
+        grid-template-columns: repeat(auto-fit, 290px);
+        grid-template-rows: auto;
+        min-width: 290px;
+    }
+}

@@ -1,0 +1,30 @@
+.feedback__list {
+    display: flex;
+    list-style: none;
+    margin: 0 0 43px;
+    padding: 0;
+    width: 100%;
+    align-content: center;
+}
+    
+@media screen and (max-width: 1365px){
+    .feedback__list {
+        margin: 0 0 50px;
+        padding: 0;
+    }
+}    
+
+@media screen and (max-width: 900px){
+    .feedback__list {
+        margin: 0 0 50px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .feedback__list {
+        width: calc(100% - 15px * 2);
+        margin: 0 0 30px;
+        padding: 0 15px 0;
+    }
+}

@@ -1,0 +1,5 @@
+.selector__cover {
+    display: flex;
+    justify-content: space-between;
+    min-width: 60px;
+}

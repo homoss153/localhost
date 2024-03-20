@@ -1,0 +1,34 @@
+@import url(./__help/icon__help.css);
+@import url(./__help/_size/icon__help_size_small.css);
+@import url(./__help/_size/icon__help_size_big.css);
+@import url(./__text/icon__text.css);
+@import url(./__text/_fill/icon__text_fill_zero.css);
+@import url(./__text/_fill/icon__text_fill_sunbed.css);
+@import url(./__text/_fill/icon__text_fill_scratching-post.css);
+@import url(./__text/_fill/icon__text_fill_skein.css);
+@import url(./__text/_fill/icon__text_fill_house.css);
+@import url(./_content/icon_content_zero.css);
+@import url(./_content/icon_content_house.css);
+@import url(./_content/icon_content_sunbed.css);
+@import url(./_content/icon_content_scratching-post.css);
+@import url(./_content/icon_content_skein.css);
+
+.icon {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon > .icon__help {
+    position: absolute;
+    transition: top 0.2s ease, opacity 0.2s ease;
+    display: block;
+    top: -85px;
+    left: -42px;
+    opacity: 0;
+}
+
+.icon:hover > .icon__help {
+    top: -55px;
+    opacity: 1;
+}

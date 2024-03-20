@@ -1,0 +1,9 @@
+.rooms-list__toggle {
+    position: absolute;
+    background-color: transparent;
+    width: 14px;
+    min-height: 8px;
+    top: 15px;
+    right: 18px;
+    transform: rotate(-180deg);
+}

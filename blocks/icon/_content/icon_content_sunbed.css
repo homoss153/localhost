@@ -1,0 +1,12 @@
+.icon_content_sunbed {
+    background-image: url(../../../images/stove_bench.svg);
+    width: 16px;
+    height: 12px;
+}
+
+@media screen and (max-width: 1365px){
+    .icon_content_sunbed {
+        width: 18px;
+        height: 14px;
+    }
+}

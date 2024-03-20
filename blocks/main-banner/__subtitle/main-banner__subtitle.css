@@ -1,0 +1,13 @@
+.main-banner__subtitle {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    margin: 0 0 40px;
+}
+
+@media screen and (max-width: 450px){
+    .main-banner__subtitle {
+        font-size: 16px;
+        line-height: 1.19;
+    }
+}

@@ -1,0 +1,15 @@
+.header__phone {
+    display: none;
+}
+
+@media screen and (max-width: 580px){
+    .header__phone {
+        display: block;
+        color: #1A212F;
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 400;
+        text-decoration: none;
+        margin-bottom: 25px;
+    }
+}

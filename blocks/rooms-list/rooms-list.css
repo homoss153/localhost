@@ -1,0 +1,34 @@
+@import url(./__row/rooms-list__row.css);
+@import url(./__title/rooms-list__title.css);
+@import url(./__filter/rooms-list__filter.css);
+@import url(./__filter/_active/rooms-list__filter_active.css);
+@import url(./__link/rooms-list__link.css);
+@import url(./__columns/rooms-list__columns.css);
+@import url(./__item/rooms-list__item.css);
+@import url(./__item/_active/rooms-list__item_active.css);
+@import url(./__filter-show/rooms-list__filter-show.css);
+@import url(./__filter-cover/rooms-list__filter-cover.css);
+@import url(./__toggle/rooms-list__toggle.css);
+@import url(./__toggle/_active/rooms-list__toggle_active.css);
+
+.rooms-list {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(1366px - 98px - 98px);
+    padding: 0 98px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1365px){
+    .rooms-list {
+        min-width: calc(768px - 45px * 2);
+        padding: 0 45px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .rooms-list {
+        min-width: calc(100% - 15px * 2);
+        padding: 0 15px;
+    }
+}

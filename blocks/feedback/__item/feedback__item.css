@@ -1,0 +1,51 @@
+.feedback__item {
+    position: relative;
+    box-shadow: 0 0 25px rgba(208, 208, 208, 0.25);
+    border-radius: 8px;
+    background-color: #ffffff;
+    min-width: 470px;
+    z-index: 1;
+    margin-right: 30px;
+    padding: 35px 38px 35px 70px;
+    box-sizing: border-box;
+}
+
+.feedback__item:last-of-type {
+    margin-right: 0;
+}
+
+.feedback__item::before {
+    content: url(../../../images/marks.svg);
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    width: 27px;
+    height: 56px;
+}
+
+.feedback__item:last-of-type {
+    margin-right: 0;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 1365px){
+    .feedback__item {
+        padding: 35px 33px 35px 70px;
+        min-width: 442px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .feedback__item {
+        width: 100%;
+        min-width: 100%;
+        padding: 25px 21px 25px 56px;
+        margin-right: 15px;
+    }
+
+    .feedback__item::before {
+        top: 25px;
+        left: 25px;
+    }
+}

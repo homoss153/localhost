@@ -1,0 +1,4 @@
+.rooms-list__columns {
+    display: flex;
+    justify-content: space-between;
+}

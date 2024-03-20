@@ -1,0 +1,8 @@
+.filter__label {
+    font-size: 14px;
+    line-height: 1.21;
+}
+
+.filter__label:not(:last-of-type) {
+    margin-bottom: 15px;
+}

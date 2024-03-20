@@ -1,0 +1,13 @@
+.position__icon {
+    margin-left: 4px;
+}
+
+.position__icon:first-of-type {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1365px){
+    .position__icon {
+        margin-left: 12px;
+    }
+}

@@ -1,0 +1,12 @@
+.navigation__list_type_footer {
+
+}
+
+@media screen and (max-width: 580px) {
+    .navigation__list_type_footer {
+        max-height: 78px;
+        width: 100%;
+        min-width: 250px;
+        flex-wrap: wrap;
+    }
+}

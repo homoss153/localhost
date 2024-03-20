@@ -1,0 +1,34 @@
+@import url(./__cover/contacts__cover.css);
+@import url(./__title/contacts__title.css);
+@import url(./__list/contacts__list.css);
+@import url(./__item/contacts__item.css);
+@import url(./__name/contacts__name.css);
+@import url(./__text/contacts__text.css);
+@import url(./__link/contacts__link.css);
+@import url(./__social/contacts__social.css);
+@import url(./__image/contacts__image.css);
+@import url(./__cards-cover/contacts__cards-cover.css);
+@import url(./__yandex-card/contacts__yandex-card.css);
+@import url(./__social/_type/contacts__social_type_header.css);
+
+.contacts {
+    display: flex;
+    width: 100%;
+    max-height: 580px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .contacts {
+        min-width: 768px;
+        max-height: 522px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .contacts {
+        flex-direction: column;
+        min-width: 100%;
+        max-height: 777px;
+    }
+}

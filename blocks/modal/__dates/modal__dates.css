@@ -1,0 +1,9 @@
+.modal__dates {
+
+}
+
+@media screen and (max-width: 600px) {
+    .modal__dates {
+        display: flex;
+    }
+}

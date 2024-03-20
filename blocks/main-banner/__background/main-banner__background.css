@@ -1,0 +1,57 @@
+.main-banner__background {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: url(../../../images/main-banner.png), url(../../../images/desktop_cat.jpg);
+    background-size: cover;
+    object-fit: cover;
+    max-width: calc(100% - 198px);
+    width: calc(100% - 198px);
+    min-height: 504px;
+    padding: 0 0 0 198px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1000px){
+    .main-banner__background {
+        justify-content: flex-start;
+        align-items: center;
+        background: url(../../../images/tablet_mask.png), url(../../../images/tablet_cat.png);
+        background-repeat: no-repeat;
+        max-width: 768px;
+        width: 768px;
+        min-height: calc(868px - 140px);
+        padding: 140px 0 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main-banner__background {
+        background-size: cover;
+        max-width: 568px;
+        width: 568px;
+        min-height: calc(668px - 80px);
+        padding: 80px 0 0;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .main-banner__background {
+        min-height: calc(568px - 60px);
+        max-width: 468px;
+        width: 468px;
+        padding: 60px 0 0;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .main-banner__background {
+        background: url(../../../images/mask_mobile.png), url(../../../images/cat_mobile.png);
+        background-repeat: no-repeat;
+        max-width: 320px;
+        width: 320px;
+        min-height: calc(457px - 50px);
+        padding: 50px 0 0;
+    }
+}

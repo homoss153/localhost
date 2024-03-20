@@ -1,0 +1,21 @@
+.rooms-list__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding: 60px 0 53px 0;
+}
+
+@media screen and (max-width: 1365px){
+    .rooms-list__row {
+        padding: 60px 0 50px 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .rooms-list__row {
+        flex-direction: column;
+        padding: 40px 0 30px 0;
+        align-items: flex-start;
+    }
+}

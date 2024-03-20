@@ -1,0 +1,16 @@
+.icon_content_skein {
+    background-image: url(../../../images/skein.svg);
+    width: 16px;
+    height: 16px;
+}
+
+.icon.icon_content_skein > .icon__help {
+    left: -90px;
+}
+
+@media screen and (max-width: 1365px){
+    .icon_content_skein {
+        width: 18px;
+        height: 18px;
+    }
+}

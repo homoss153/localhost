@@ -1,0 +1,38 @@
+.rooms-list__filter-show {
+    display: none;
+    position: relative;
+    box-shadow: 0 2px 12px rgba(173, 152, 143, 0.18);
+    border: none;
+    border-radius: 25px;
+    min-width: calc(121px - 20px - 42px);
+    min-height: calc(38px - 12px * 2);
+    margin: 0;
+    padding: 12px 20px 12px 42px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    background-color: white;
+    color: #1A212F;
+}
+
+.rooms-list__filter-show::before {
+    position: absolute;
+    content: url(../../../images/filter.svg);
+    width: 12px;
+    height: 15px;
+    top: 13px;
+    left: 15px;
+}
+
+@media screen and (max-width: 1365px){
+    .rooms-list__filter-show {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .rooms-list__filter-show {
+        padding: 12px 13px 12px 35px;
+    }
+}

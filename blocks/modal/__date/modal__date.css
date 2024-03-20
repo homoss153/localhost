@@ -1,0 +1,39 @@
+.modal__date {
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 14px 0 14px 16px;
+    font-size: 15px;
+    line-height: 1.17;
+    max-width: 132px;
+}
+
+.modal__date::-webkit-input-placeholder {
+    color: #B5B5B5;
+}
+
+.modal__date:-ms-input-placeholder {
+    color: #B5B5B5;
+}
+
+.modal__date::-moz-placeholder {
+    color: #B5B5B5;
+    opacity: 1;
+}
+
+.modal__date:-moz-placeholder {
+    color: #B5B5B5;
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    .modal__date {
+        padding: 17px 15px;
+        max-width: 107px;
+        margin: 0 5px;
+    }
+
+    .modal__date:last-child {
+        margin: 0 0 0 5px;
+    }
+}

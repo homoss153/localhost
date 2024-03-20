@@ -1,0 +1,22 @@
+.header__container {
+    
+}
+
+@media screen and (max-width: 580px){
+    .header__container {
+        display: none;
+        position: absolute;
+        top: 76px;
+        left: 0;
+        flex-direction: column;
+        background-color: #FAC663;
+        padding: 42px 15px;
+        width: calc(100% - 15px * 2);
+    }    
+}
+
+@media screen and (max-width: 450px){
+    .header__container {
+        top: 62px;
+    }    
+}

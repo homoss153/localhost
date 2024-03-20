@@ -1,0 +1,22 @@
+.modal__button {
+    position: relative;
+    min-width: calc(230px - 56px - 65px);
+    padding: 0 65px 0 56px;
+    text-align: left;
+    color: #FFFEFD;
+    background: #FF7236;
+    box-shadow: 0px 5px 25px rgba(26, 33, 47, 0.1);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.21;
+    align-self: center;
+}
+
+.modal__button::after {
+    position: absolute;
+    content: url(../../../images/button_paw_white.svg);
+    top: 7px;
+    right: 7px;
+    width: 36px;
+    height: 36px;
+}

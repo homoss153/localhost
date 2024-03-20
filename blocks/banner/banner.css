@@ -1,0 +1,25 @@
+@import url(./__background/banner__background.css);
+@import url(./__title/banner__title.css);
+@import url(./__title/_size/banner__title_size_small.css);
+@import url(./__title/_size/banner__title_size_big.css);
+@import url(./__subtitle/banner__subtitle.css);
+@import url(./__button/banner__button.css);
+
+.banner {
+    max-width: calc(100% - 98px * 2);
+    padding: 140px 98px;
+}
+
+@media screen and (max-width: 1365px){
+    .banner {
+        min-width: calc(100% - 45px * 2);
+        padding: 120px 45px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .banner {
+        min-width: calc(100% - 15px * 2);
+        padding: 70px 15px;
+    }
+}

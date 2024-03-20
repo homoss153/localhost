@@ -1,0 +1,17 @@
+.toggle__cover {
+    display: flex;
+    justify-content: space-between;
+    min-width: 82px;
+}
+
+@media screen and (max-width: 1080px){
+    .toggle__cover {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .toggle__cover {
+        display: none;
+    }
+}

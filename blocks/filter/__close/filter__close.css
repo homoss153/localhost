@@ -1,0 +1,11 @@
+.filter__close {
+    display: none;
+    top: 25px;
+    right: 25px;
+}
+
+@media screen and (max-width: 1365px){
+    .filter__close {
+        display: block;
+    }
+}

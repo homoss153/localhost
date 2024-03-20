@@ -1,0 +1,23 @@
+.rooms__list {
+    list-style: none;
+    margin: 0 0 43px;
+    padding: 0;
+}
+
+@media screen and (max-width: 900px){
+    .rooms__list {
+        margin: 0 0 55px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .rooms__list {
+        margin: 0 0 50px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .rooms__list {
+        margin: 0 0 30px;
+    }
+}

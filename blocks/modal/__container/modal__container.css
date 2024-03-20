@@ -1,0 +1,38 @@
+.modal__container {
+    position: relative;
+    max-width: calc(570px - 70px * 2);
+    background: #FFFEFD;
+    box-shadow: 0 0 25px rgba(153, 153, 153, 0.25);
+    border-radius: 10px;
+    padding: 70px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.modal__container::after {
+    position: absolute;
+    content: url(../../../images/modal_paw.svg);
+    top: -50px;
+    left: -45px;
+    width: 367px;
+    height: 314px;
+    z-index: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .modal__container {
+        max-width: calc(290px - 15px * 2);
+        padding: 60px 15px;
+    }
+
+    .modal__container::after {
+        position: absolute;
+        content: url(../../../images/modal_paw.svg);
+        top: -50px;
+        left: -45px;
+        width: 367px;
+        height: 314px;
+        z-index: 0;
+    }
+
+}

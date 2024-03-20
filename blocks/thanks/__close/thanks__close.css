@@ -1,0 +1,18 @@
+.thanks__close {
+    top: 40px;
+    right: 40px;
+}
+
+@media screen and (max-width: 1365px) {
+    .thanks__close {
+        top: 25px;
+        right: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .thanks__close {
+        top: 20px;
+        right: 20px;
+    }
+}

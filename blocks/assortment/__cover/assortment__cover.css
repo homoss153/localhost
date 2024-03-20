@@ -1,0 +1,13 @@
+.assortment__cover {
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-top: none;
+    border-radius: 0 0 6px 6px;
+    padding: 25px 20px;
+}
+
+@media screen and (max-width: 1365px){
+    .assortment__cover {
+        padding: 25px;
+    }
+}

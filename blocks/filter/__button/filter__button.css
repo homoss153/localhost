@@ -1,0 +1,15 @@
+.filter__button {
+    max-width: 185px;
+    min-height: 42px;
+    font-size: 14px;
+    line-height: 1.21;
+    font-weight: 600;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 365px)  {
+    .filter__button {
+        max-width: 100%;
+    }
+}

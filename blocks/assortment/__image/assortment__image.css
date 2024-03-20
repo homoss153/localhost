@@ -1,0 +1,13 @@
+.assortment__image {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+}
+
+@media screen and (max-width: 580px) {
+    .assortment__image {
+        min-height: 185px;
+    }
+}

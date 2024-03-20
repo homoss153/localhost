@@ -1,0 +1,22 @@
+.filter__container {
+    min-width: 210px;
+}
+
+@media screen and (max-width: 1365px){
+    .filter__container {
+        position: fixed;
+        width: calc(332px - 60px * 2);
+        padding: 50px 60px;
+        z-index: 20;
+        background-color: white;
+        box-shadow: 0 4px 25px rgba(153, 153, 153, 0.25);
+        border-radius: 6px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .filter__container {
+        width: calc(290px - 25px * 2);
+        padding: 50px 25px;
+    }
+}

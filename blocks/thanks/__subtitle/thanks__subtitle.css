@@ -1,0 +1,15 @@
+.thanks__subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    margin: 0 0 43px;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px)  {
+    .thanks__subtitle {
+        line-height: 1.4;
+        margin: 0 0 35px;
+    }
+}

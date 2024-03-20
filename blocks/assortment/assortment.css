@@ -1,0 +1,27 @@
+@import url(./__cards/assortment__cards.css);
+@import url(./__item/assortment__item.css);
+@import url(./__image/assortment__image.css);
+@import url(./__title/assortment__title.css);
+@import url(./__list/assortment__list.css);
+@import url(./__part/assortment__part.css);
+@import url(./__text/assortment__text.css);
+@import url(./__text/_size/assortment__text_size_big.css);
+@import url(./__button/assortment__button.css);
+@import url(./__cover/assortment__cover.css);
+
+.assortment {
+    min-width: 870px;
+}
+
+@media screen and (max-width: 1365px){
+    .assortment {
+        min-width: 678px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .assortment {
+        min-width: calc(320px - 15px * 2);
+    }
+}
